@@ -75,7 +75,7 @@
     font-size: 18px;
 }
 .artdiv{
-    margin: 80px 0px 80px 0px;
+    margin: 80px 0px 0px 0px;
 }
 .artdiv img{
     width: 755px;
@@ -87,4 +87,27 @@
     position: relative;
     padding: 0px 0px 200px 0px;
     margin: 80px 0px 0px 0px;
+}
+.footdiv .caixa{
+    padding: 5px 15px 5px 15px;
+    border-radius: 20px;
+}
+.footdiv form p{
+    font-family: helvetica;
+    color: white;
+    font-size: 18px;
+}
+.footdiv .login{
+    padding: 70px 0px 0px 0px;
+}
+.footdiv .butao{
+    padding: 3px 30px 5px 30px;
+    background-color: green;
+    border: none;
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+}
+.footdiv .butao:hover{
+    cursor: pointer;
 }

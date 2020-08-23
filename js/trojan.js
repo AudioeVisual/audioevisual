@@ -14,6 +14,9 @@ function acesso(form){
 
         if (form.nome.value == "raquel perin" && form.senha.value == "melhoramigamexma" ) {
           location = "socio/raquel/paginasocioraquel.html" }
+
+        if (form.nome.value == "jota king" && form.senha.value == "jotakingoficial" ) {
+          location = "socio/jobson/projetosjobson.html" }
           
         else {
           form.nome.value=""
