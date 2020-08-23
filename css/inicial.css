@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.geral{
+    background-image: url(bodybackground.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.headiv{
+    padding: 0px 0px 200px 0px;
+    background-image: url(../fundos/bodybackgroundimg.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.headiv h1 img{
+    padding: 100px 0px 0px 0px;
+    width: 350px;
+}
+.headiv .tbr{
+    margin: 70px 0px 0px 0px;
+    padding: 15px 55px 15px 55px;
+    border-radius: 30px;
+    border-color: white;
+    background-image: url(../fundos/bodybackgroundimg.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.headiv .tbr a{
+    color: white;
+    font-size: 18px;
+    font-family: helvetica;
+    text-decoration: none;
+}
+.headiv .tbr:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.headiv .ctt{
+    margin: 20px 0px 0px 0px;
+    padding: 15px 35px 15px 35px;
+    border-radius: 30px;
+    border-color: green;
+    background: green;
+}
+.headiv .ctt a{
+    color: white;
+    font-size: 18px;
+    font-family: helvetica;
+    text-decoration: none;
+}
+.headiv .ctt:hover{
+    transition: linear .2s;
+    background-color: rgba(248, 232, 142, 0.678);
+    cursor: pointer;
+}
+.headiv .ssc{
+    margin: 100px 0px 0px 0px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: none;
+    background-image: url(../fundos/instabackground.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+}
+.headiv .ssc a{
+    color: white;
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 18px;
+}
+.artdiv{
+    margin: 80px 0px 80px 0px;
+}
+.artdiv img{
+    width: 755px;
+}
+.footdiv{
+    background-image: url(../fundos/fundofooter.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 0px 0px 200px 0px;
+    margin: 80px 0px 0px 0px;
+}

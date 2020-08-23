@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+  .headaside{
+      width: 100%;
+  }
+  .asideclass .headaside img{
+      width: 100px;
+  }
+  .headaside a{
+      color: white;
+      font-family: helvetica;
+      font-size: 18px;
+      text-decoration: none;
+  }
