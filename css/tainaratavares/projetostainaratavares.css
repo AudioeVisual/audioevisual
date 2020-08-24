@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.geral{
+    background-image: url(../bodybackground.png);
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    padding: 0px 0px 700px 0px;
+}
+.headiv{
+    background-image: url(../headbackground.jpg);
+}
+.headiv h1 img{
+    width: 200px;
+}
+.projetos .project1 img{
+    width: 400px;
+}
+.projetos .project1 button{
+    margin: 20px 0px 0px 0px;
+    padding: 15px 40px 15px 40px;
+    background-color: green;
+    border: none;
+    border-radius: 15px;
+}
+.projetos .project1 button a{
+    font-size: 20px;
+    font-family: helvetica;
+    text-decoration: none;
+    color: white;
+}
+.projetos .project1 button a:hover{
+    transition: linear .2s;
+    font-size: 23px;
+}
+.projetos{
+    margin: 50px 0px 0px 0px;
+}

@@ -17,6 +17,9 @@ function acesso(form){
 
         if (form.nome.value == "jota king" && form.senha.value == "jotakingoficial" ) {
           location = "socio/jobson/projetosjobson.html" }
+
+        if (form.nome.value == "tainara tavares" && form.senha.value == "tainaratavaresavdesign" ) {
+          location = "socio/tainaratavares/projetostainaratavares.html" }
           
         else {
           form.nome.value=""
