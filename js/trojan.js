@@ -20,10 +20,18 @@ function acesso(form){
 
         if (form.nome.value == "tainara tavares" && form.senha.value == "tainaratavaresavdesign" ) {
           location = "socio/tainaratavares/projetostainaratavares.html" }
+
+        if (form.nome.value == "hernandes fernandes" && form.senha.value == "pazesports" ) {
+          location = "socio/hernandesfernandes/projetoshernandes.html" }
           
         else {
           form.nome.value=""
           form.senha.value=""
           alert("Verifique se login e senha estão corretos.")
         }
+      }
+
+function naoDisponivel() {
+        
+      alert("Pagamento Pendente - Download não disponível")
       }
