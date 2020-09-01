@@ -31,7 +31,3 @@ function acesso(form){
         }
       }
 
-function naoDisponivel() {
-        
-      alert("Pagamento Pendente - Download não disponível")
-      }
