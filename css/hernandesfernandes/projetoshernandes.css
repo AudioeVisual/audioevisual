@@ -39,3 +39,9 @@
 .projetos{
     margin: 50px 0px 0px 0px;
 }
+.models .conc{
+    text-decoration-line: line-through;
+}
+.models button:hover{
+    font-size: 18px;
+}
