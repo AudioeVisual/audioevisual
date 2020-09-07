@@ -17,7 +17,7 @@
 }
 .gallery .item {
   height: 400px;
-  overflow: hidden;
+  overflow: scroll;
   text-align: center;
   background: black;
 }

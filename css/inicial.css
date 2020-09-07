@@ -111,3 +111,61 @@
 .footdiv .butao:hover{
     cursor: pointer;
 }
+.menu{  
+    background-color: black;
+    position: absolute;
+    height: 25%;
+    width: 100%;
+    transition: all .2s linear;
+    top: -210px;
+}
+header label img{
+    width: 40px;
+    padding: 10px;
+}
+#check{
+    display: none;
+}
+#icone{
+    cursor: pointer;
+    padding: 15px;
+    position: absolute;
+    z-index: 1;
+}
+nav{
+    width: 100%;
+    position: absolute;
+    top: 60px;
+}
+nav a{
+    text-decoration: none;
+}
+.link{
+    background-color: #494950;
+    padding: 20px;
+    font-family: helvetica;
+    font-size: 12pt;
+    transition: all .2s linear;
+    color: white;
+    border-bottom: 2px solid #222;
+}
+.link:hover{
+    background-color: #050542;
+}
+
+#check:checked ~ .menu{
+    transform: translateZ(210px)
+}
+section .artcursos img{
+    width: 100%;
+   margin: 150px 0px 0px 0px;
+   transition: all .2s linear;
+}
+.artcursos h4{
+    font-size: 22pt;
+    font-family: helvetica;
+}
+.artcursos{
+    margin: 30px 0px 0px 0px;
+    padding: 0px 0px 150px 0px;
+}
