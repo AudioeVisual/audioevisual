@@ -14,23 +14,31 @@ function voltarFlix() {
     document.getElementById("cursoflix").src = "images/cursos/cursoflix/cursoflixbar1.png"
 }
 
-function icoDesignMudaMarketing() {
+function mudaDesign() {
 
-    document.getElementById("marketingico").src = "ico/designabahover.png";
-}
-
-function icoDesignMudaDesign() {
-
-    document.getElementById("designico").src = "ico/marketingabahover.png";
-}
-
-function icoDesignVoltaMarketing() {
-
-    document.getElementById("marketingico").src = "ico/designaba.png";
+    document.getElementById("designico").src = "ico/designhover.png"
 
 }
 
-function icoDesignVoltaDesign() {
+function voltaDesign() {
+    
+    document.getElementById("designico").src = "ico/designnormal.png"
+}
 
-    document.getElementById("designico").src = "ico/marketingaba.png";
+function mudaMarketing() {
+
+    document.getElementById("marketingico").src = "ico/marketinghover.png"
+
+}
+
+function voltaMarketing() {
+    
+    document.getElementById("marketingico").src = "ico/marketingnormal.png"
+}
+
+
+
+function avisoDisponivel() {
+
+    alert('Função não disponível! Estamos trabalhando nisso.')
 }

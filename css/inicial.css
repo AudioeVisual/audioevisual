@@ -18,7 +18,7 @@
 }
 .headiv h1 img{
     padding: 100px 0px 0px 0px;
-    width: 350px;
+    width: 320px;
 }
 .headiv .tbr{
     margin: 70px 0px 0px 0px;
@@ -62,7 +62,8 @@
     margin: 100px 0px 0px 0px;
     padding: 5px 10px 5px 10px;
     border-radius: 10px;
-    border: none;
+    border-color: white;
+    border-style: solid;
     background-image: url(../fundos/instabackground.jpg);
     background-position: center;
     background-attachment: fixed;
@@ -73,6 +74,10 @@
     text-decoration: none;
     font-family: helvetica;
     font-size: 18px;
+}
+.headiv .ssc a:hover{
+    font-size: 19px;
+    transition: all .2s linear;
 }
 .artdiv{
     margin: 80px 0px 0px 0px;
@@ -174,25 +179,29 @@ section .artcursos img{
 }
 .clibut{
     padding: 7px 40px 7px 40px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 50px 0px;
     background-image: url(../fundos/fundofooter.png);
     background-position: center;
     background-attachment: fixed;
     position: relative;
     border-right: none;
-    border-top-left-radius: 45%;
-    border-bottom-left-radius: 45%;
+    border-color: white;
+    border-style: solid;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
 }
 .sobut{
     padding: 7px 40px 7px 40px;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 50px 0px;
     background-image: url(../fundos/fundofooter.png);
     background-position: center;
     background-attachment: fixed;
     position: relative;
     border-left: none;
-    border-top-right-radius: 45%;
-    border-bottom-right-radius: 45%;
+    border-color: white;
+    border-style: solid;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
 }
 .sobut a{
     color: white;
@@ -215,7 +224,7 @@ section .artcursos img{
     transition: .2s linear;
 }
 .icon-curso ul li a img{
-    width: 80px;
+    width: 50px;
 }
 .icon-curso ul{
     display: inline-flex;
@@ -223,4 +232,14 @@ section .artcursos img{
 .icon-curso ul li{
     margin: 0px 50px 0px 0px;
     list-style: none;
+}
+#marketingico:hover{
+    width: 53px;
+}
+#designico:hover{
+    width: 53px;
+}
+.icon-curso ul li a{
+    color: black;
+    text-decoration: none;
 }
