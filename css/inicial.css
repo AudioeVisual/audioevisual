@@ -158,7 +158,7 @@ nav a{
 }
 section .artcursos img{
     width: 100%;
-   margin: 150px 0px 0px 0px;
+   margin: 100px 0px 0px 0px;
    transition: all .2s linear;
 }
 .artcursos h4{
@@ -168,4 +168,59 @@ section .artcursos img{
 .artcursos{
     margin: 30px 0px 0px 0px;
     padding: 0px 0px 150px 0px;
+}
+#socio:target{
+    transition: all 3s scroll;
+}
+.clibut{
+    padding: 7px 40px 7px 40px;
+    margin: 0px 0px 20px 0px;
+    background-image: url(../fundos/fundofooter.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    border-right: none;
+    border-top-left-radius: 45%;
+    border-bottom-left-radius: 45%;
+}
+.sobut{
+    padding: 7px 40px 7px 40px;
+    margin: 0px 0px 20px 0px;
+    background-image: url(../fundos/fundofooter.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    border-left: none;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+}
+.sobut a{
+    color: white;
+    font-family: helvetica;
+    font-size: 12pt;
+    text-decoration: none;
+}
+.clibut a{
+    color: white;
+    font-family: helvetica;
+    font-size: 12pt;
+    text-decoration: none;
+}
+.sobut:hover{
+    background-image: url(../fundos/instabackground.jpg);
+    transition: .2s linear;
+}
+.clibut:hover{
+    background-image: url(../fundos/instabackground.jpg);
+    transition: .2s linear;
+}
+.icon-curso ul li a img{
+    width: 80px;
+}
+.icon-curso ul{
+    display: inline-flex;
+}
+.icon-curso ul li{
+    margin: 0px 50px 0px 0px;
+    list-style: none;
 }
