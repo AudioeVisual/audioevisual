@@ -25,6 +25,7 @@
     padding: 15px 55px 15px 55px;
     border-radius: 30px;
     border-color: white;
+    border-style: solid;
     background-image: url(../fundos/bodybackgroundimg.png);
     background-position: center;
     background-attachment: fixed;
@@ -45,6 +46,7 @@
     padding: 15px 35px 15px 35px;
     border-radius: 30px;
     border-color: green;
+    border-style: solid;
     background: green;
 }
 .headiv .ctt a{
@@ -56,6 +58,7 @@
 .headiv .ctt:hover{
     transition: linear .2s;
     background-color: rgba(248, 232, 142, 0.678);
+    border-color: rgba(248, 232, 142, 0.678);;
     cursor: pointer;
 }
 .headiv .ssc{
@@ -119,10 +122,10 @@
 .menu{  
     background-color: black;
     position: absolute;
-    height: 25%;
-    width: 100%;
+    height: 100%;
+    width: 20%;
     transition: all .2s linear;
-    top: -210px;
+    left: -300px;
 }
 header label img{
     width: 40px;
@@ -159,7 +162,7 @@ nav a{
 }
 
 #check:checked ~ .menu{
-    transform: translateZ(210px)
+    transform: translateX(210px)
 }
 section .artcursos img{
     width: 100%;
@@ -230,7 +233,7 @@ section .artcursos img{
     display: inline-flex;
 }
 .icon-curso ul li{
-    margin: 0px 50px 0px 0px;
+    margin: 0px 80px 0px 0px;
     list-style: none;
 }
 #marketingico:hover{
@@ -242,4 +245,14 @@ section .artcursos img{
 .icon-curso ul li a{
     color: black;
     text-decoration: none;
+}
+.artcursos h6{
+    margin: 20px 0px 0px 50px;
+    font-size: 12pt;
+}
+.artcursos #marketingdiv{
+    visibility: hidden;
+}
+.artcursos #linkmarketing:target ~ #marketingdiv{
+    visibility: visible;
 }
