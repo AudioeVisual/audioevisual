@@ -18,6 +18,10 @@ function mudaImg4() {
 
     document.getElementById("project").src = "projetos/Fundo Guerra GUILDA PAZ_E-SPORTS.png"
 }
+function mudaImg5() {
+
+    document.getElementById("project").src = "projetos/pazesportssemfundo.png"
+}
 
 
 
