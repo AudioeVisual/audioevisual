@@ -1,0 +1,15 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.stories img{
+    width: 55px;
+}
+.stories ul{
+    list-style: none;
+    display: flex;
+}
+.stories ul li{
+    margin: 4.4px;
+}

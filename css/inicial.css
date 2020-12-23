@@ -83,7 +83,7 @@
     transition: all .2s linear;
 }
 .artdiv{
-    margin: 80px 0px 0px 0px;
+    margin: 30px 0px 0px 0px;
 }
 .artdiv img{
     width: 755px;
@@ -255,4 +255,10 @@ section .artcursos img{
 }
 .artcursos #linkmarketing:target ~ #marketingdiv{
     visibility: visible;
+}
+.stories-div{
+    margin: 50px 0px 0px 0px;
+}
+.stories-div iframe{
+    width: 350px;
 }
