@@ -82,6 +82,59 @@
     font-size: 19px;
     transition: all .2s linear;
 }
+.quemdiv button{
+    background-color: chocolate;
+    margin: 10px 0px 0px 0px;
+}
+.quemdiv button a{
+    color: white;
+    text-decoration: none;
+    font-family: helvetica;
+    margin: 5px;
+}
+.quemdiv{
+    margin: 50px 0px 0px 0px;
+}
+.quemdiv h2{
+    font-family: helvetica;
+    font-size: 30px;
+}
+.quemdiv p{
+    text-align: center;
+    margin: 20px 80px 10px 0px;
+    font-size: 17px;
+    font-family: helvetica;
+}
+.oquefazemos p{
+    text-align: justify;
+    margin: 5px 80px 10px 30px;
+    font-size: 17px;
+    font-family: helvetica;
+}
+.oquefazemos{
+    margin: 50px 0px 0px 0px;;
+}
+.oquefazemos ul li img{
+    width: 60px;
+}
+.oquefazemos ul li img:hover{
+    width: 63px;
+}
+.oquefazemos h1{
+    font-family: Helvetica, sans-serif;
+    margin: 0px 0px 0px 20px;
+    text-decoration: underline black;
+}
+.oquefazemos ul{
+    display: block ;
+    list-style: none;
+}
+.oquefazemos ul li{
+    flex-wrap: wrap;
+}
+.oquefazemos hr{
+    margin: 20px 100px 0px 100px;
+}
 .artdiv{
     margin: 30px 0px 0px 0px;
 }
