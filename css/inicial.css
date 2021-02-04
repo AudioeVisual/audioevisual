@@ -82,15 +82,33 @@
     font-size: 19px;
     transition: all .2s linear;
 }
+.headiv .portfolio{
+    padding: 5px 25px 5px 25px;
+    margin: 30px 0px 0px 0px;
+    border-radius: 25px;
+    background-color: white;
+    border: none;
+}
+.headiv .portfolio a{
+    text-decoration: none;
+    font-family: helvetica;
+    color: black;
+    font-size: 18px;
+}
 .quemdiv button{
     background-color: chocolate;
     margin: 10px 0px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 25px;
+    border-style: none;
 }
 .quemdiv button a{
     color: white;
     text-decoration: none;
     font-family: helvetica;
+    font-size: 18px;
     margin: 5px;
+    cursor: crosshair;
 }
 .quemdiv{
     margin: 50px 0px 0px 0px;
@@ -112,28 +130,27 @@
     font-family: helvetica;
 }
 .oquefazemos{
-    margin: 50px 0px 0px 0px;;
+    margin: 50px 0px 0px 0px;
+    width: auto;
 }
-.oquefazemos ul li img{
-    width: 60px;
+.oquefazemos a img{
+    width: 400px;
+    padding: 0px 0px 20px 0px;
 }
-.oquefazemos ul li img:hover{
-    width: 63px;
+.oquefazemos a img:hover{
+    width: 410px;
+    transition: linear .2s;
+}
+.oquefazemos #editvideo, #editsite{
+    float: right;
+}
+.oquefazemos #null{
+    visibility: hidden;
 }
 .oquefazemos h1{
     font-family: Helvetica, sans-serif;
     margin: 0px 0px 0px 20px;
     text-decoration: underline black;
-}
-.oquefazemos ul{
-    display: block ;
-    list-style: none;
-}
-.oquefazemos ul li{
-    flex-wrap: wrap;
-}
-.oquefazemos hr{
-    margin: 20px 100px 0px 100px;
 }
 .artdiv{
     margin: 30px 0px 0px 0px;
