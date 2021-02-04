@@ -134,11 +134,11 @@
     width: auto;
 }
 .oquefazemos a img{
-    width: 400px;
+    width: 300px;
     padding: 0px 0px 20px 0px;
 }
 .oquefazemos a img:hover{
-    width: 410px;
+    width: 310px;
     transition: linear .2s;
 }
 .oquefazemos #editvideo, #editsite{
