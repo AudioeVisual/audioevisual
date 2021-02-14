@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.geral{
+    background-image: url(../../css/bodybackground.png);
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    padding: 0px 0px 700px 0px;
+}
+.headiv{
+    background-image: url(../../css/headbackground.jpg);
+}
+.headiv h1 img{
+    width: 200px;
+}
+.futuristas{
+    margin: 50px 0px 0px 0px;
+}
+.downloadimg img{
+    width: 35px;
+    margin:0px 0px 0px 0px;
+}
+.downloadimg img:hover{
+    transition: linear .2;
+    width: 38px;
+    margin:0px 0px 0px 0px;
+}
+.futuristic ul{
+    display: inline-flex;
+    list-style: none;
+}
+.futuristic ul li{
+    margin: 20px 5px 30px 5px;
+}
+.futuristic .titlefont img{
+    width: 140px;
+}
+.futuristas{
+  background-color: black;
+}
+.futuristas h1 img{
+    width: 350px;
+}
