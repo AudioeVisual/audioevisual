@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.geral{
+    background-image: url(fundologindownloads.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 0px 0px 700px 0px;
+}
+header h1 img{
+    width: 300px;
+}
+.formulario h2{
+    color: white;
+    font-family: helvetica;
+}
+.formulario p{
+    color: white;
+}
+.formulario .button{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 10px;
+    border-style: hidden;
+}
