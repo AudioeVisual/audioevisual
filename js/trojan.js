@@ -23,6 +23,9 @@ function acesso(form){
 
         if (form.nome.value == "hernandes fernandes" && form.senha.value == "pazesports" ) {
           location = "socio/hernandesfernandes/projetoshernandes.html" }
+        
+        if (form.nome.value == "resenha na areia" && form.senha.value == "ctresenhanaareia" ) {
+          location = "clientes/resenhanaareia/ctrna.html" }
           
         else {
           form.nome.value=""

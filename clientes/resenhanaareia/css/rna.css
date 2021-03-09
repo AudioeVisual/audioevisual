@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.geral{
+    background-image: url(bodybackground.png);
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    padding: 0px 0px 700px 0px;
+}
+.headiv{
+    background-image: url(headbackground.jpg);
+}
+.headiv h1 img{
+    width: 200px;
+}
+.modediv{
+    margin: 100px 0px 0px 0px;
+}
+.modediv ul li img{
+    width: 50px;
+    padding: 20px;
+}
+.modediv ul{
+    display: inline-flex;
+    list-style: none;
+}
+.modelsdiv section img{
+    width: 400px;
+}
