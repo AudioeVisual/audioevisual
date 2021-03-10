@@ -78,3 +78,21 @@
     transition: linear .2s;
 
   }
+  .ferramentas button{
+    margin: 20px 0px 0px 0px;
+    padding: 20px 50px 20px 50px;
+    background-color: orangered;
+    border-radius: 25px;
+    border-style: none;
+  }
+  .ferramentas button a{
+    color: white;
+    font-family: helvetica;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  .ferramentas h1{
+    margin: 20px 0px 30px 0px;
+    font-family: helvetica;
+    
+  }
