@@ -16,6 +16,42 @@
     background-attachment: fixed;
     position: relative;
 }
+.headiv .ul-logo .logotext{
+    width: 150px;
+    animation: animetxt ease-out 2s;
+}
+.ul-logo .logosymbol{
+    width: 90px;
+    transform: translateY(23px);
+    animation: animesimbol 2s ease-in;
+}
+.ul-logo{
+    margin: 60px 0px 0px 0px;
+    display: inline-flex;
+    list-style: none;
+}
+.ul-logo{
+    padding: 10px;
+}
+@keyframes animetxt{
+    from{
+        transform: translateX(-150px);
+        opacity: 0;
+    }
+    to{
+        transform: translateX(0px);
+        opacity: 1;
+    }
+    
+}
+@keyframes animesimbol{
+    from{
+        transform: translate(100px, 23px);
+    }
+    to{
+        transform: translate(0px, 23px) ;
+    }
+}
 .headiv h1 img{
     padding: 100px 0px 0px 0px;
     width: 320px;
