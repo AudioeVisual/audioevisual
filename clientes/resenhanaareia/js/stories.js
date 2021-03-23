@@ -1,4 +1,4 @@
-let time = 3000,
+let time = 5000,
     currentImageIndex = 0,
     images = document
                 .querySelectorAll("#slider img")
