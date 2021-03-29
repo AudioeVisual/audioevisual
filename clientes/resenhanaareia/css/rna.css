@@ -53,3 +53,23 @@
 #slider img.selected{
     opacity: 1;
 }
+.download{
+    margin: 20px 0px 30px 0px;
+}
+.download button img{
+    width: 20px;
+    margin: 0px 0px 0px 5px;
+    transform: translateY(5px);
+}
+.download button{
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(2, 26, 61, 0.979);
+    border-radius: 25px;
+    border: none;
+}
+.download button a{
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+    text-decoration: none;
+}
