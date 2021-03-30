@@ -26,11 +26,16 @@ function acesso(form){
         
         if (form.nome.value == "resenha na areia" && form.senha.value == "ctresenhanaareia" ) {
           location = "clientes/resenhanaareia/ctrna.html" }
-          
-        else {
-          form.nome.value=""
-          form.senha.value=""
-          alert("Verifique se login e senha estão corretos.")
-        }
+
+        if (form.nome.value == "herica lopes" && form.senha.value == "hericalopesdecoracao" ) {
+          location = "clientes/hericalopes/contato/index.html" }
+            
+          else {
+            form.nome.value=""
+            form.senha.value=""
+            alert("Verifique se login e senha estão corretos.")
+          }
+
+      
       }
 

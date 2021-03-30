@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.geral{
+    background-image: url(../background/background.png);
+    background-position: center;
+    position: relative;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding: 0px 0px 500px 0px;
+}
+
+.container{
+    background-color: rgb(255, 255, 255, .7);
+    margin: 80px 40px 80px 40px;
+    border-radius: 25px;
+    padding: 20px 0px 50px 0px;
+}
+
+.container .logo{
+    width: 250px;
+}
+
+.container .logo:hover{
+    width: 258px;
+    transition: .2s linear;
+}
+
+.container h1{
+    font-size: 16px;
+    font-family: helvetica;
+    margin: 0px 20px 0px 20px;
+}
+
+
+.redes ul li img{
+    width: 30px;
+    margin: 0px 6px 0px 0px;
+    transform: translateY(5px);
+    
+}
+.redes ul li img:hover{
+    transition: .5s linear;
+    width: 33px;
+    margin: 0px 6px 0px 0px;
+    
+}
+.redes ul{
+    list-style: none;
+}
+
+.redes ul li{
+    margin: 30px 0px 0px 0px;
+}
+
+.redes ul li button{
+    background-color: rgb(56, 1, 56);
+    padding: 10px 50px 10px 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+.redes ul li button:hover{
+    cursor: pointer;
+    transition: linear .2s;
+    background-color: rgb(114, 4, 114);
+    padding: 10px 50px 10px 50px;
+    border-radius: 25px;
+    border: none;
+}
+
+.redes ul li a{
+    text-decoration: none;
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+}
+
+.creditos{
+    margin: 80px 0px 0px 0px;
+    background-color:rgb(255, 255, 255, .2); ;
+    
+}
+
+.creditos img{
+    width: 80px;
+}
+
+.creditos h2{
+    font-size: 12px;
+    padding: 10px 0px 0px 0px;
+}
