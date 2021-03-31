@@ -57,6 +57,11 @@
     padding: 100px 0px 0px 0px;
     width: 320px;
 }
+.headiv h3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    font-size: 16px;
+}
 .headiv .tbr{
     margin: 70px 0px 0px 0px;
     padding: 15px 55px 15px 55px;
@@ -213,7 +218,7 @@
     background-position: center;
     background-attachment: fixed;
     position: relative;
-    padding: 0px 0px 200px 0px;
+    padding: 0px 0px 0px 0px;
     margin: 80px 0px 0px 0px;
 }
 .footdiv .caixa{
@@ -238,35 +243,6 @@
 }
 .footdiv .butao:hover{
     cursor: pointer;
-}
-.menu{  
-    background-color: black;
-    position: absolute;
-    height: 100%;
-    width: 20%;
-    transition: all .2s linear;
-    left: -300px;
-}
-header label img{
-    width: 40px;
-    padding: 10px;
-}
-#check{
-    display: none;
-}
-#icone{
-    cursor: pointer;
-    padding: 15px;
-    position: absolute;
-    z-index: 1;
-}
-nav{
-    width: 100%;
-    position: absolute;
-    top: 60px;
-}
-nav a{
-    text-decoration: none;
 }
 .link{
     background-color: #494950;
@@ -381,4 +357,51 @@ section .artcursos img{
 }
 .stories-div iframe{
     width: 350px;
+}
+.nav-div ul{
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+
+}
+.nav-div ul li{
+    padding: 30px 60px 30px 60px;
+}
+.nav-div ul li:hover{
+    transition: .2s linear;
+    background-color: rgb(255, 255, 255, .3);
+    cursor: pointer;
+}
+.nav-div ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: helvetica;
+}
+.nav-div ul li img{
+    width: 16px;
+    margin: 0px 6px 0px 0px;
+}
+.explicitfoot-div{
+    margin: 40px 100px 150px 100px;
+}
+.explicitfoot-div p{
+    color: white;
+}
+.credit-div img{
+    width: 12px;
+    margin: 0px 6px 0px 0px;
+}
+.credit-div ul{
+    display: inline-flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.credit-div ul li{
+    padding: 0px 40px 10px 40px;
+}
+.credit-div ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 12px;
 }
