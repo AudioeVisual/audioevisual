@@ -29,6 +29,9 @@ function acesso(form){
 
         if (form.nome.value == "herica lopes" && form.senha.value == "hericalopesdecoracao" ) {
           location = "clientes/hericalopes/contato/index.html" }
+
+        if (form.nome.value == "weslley silva" && form.senha.value == "bellaafrodite" ) {
+          location = "clientes/bellaafrodite/index.html" }
             
           else {
             form.nome.value=""

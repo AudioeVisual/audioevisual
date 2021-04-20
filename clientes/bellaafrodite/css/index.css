@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.geral{
+    background-image: url(bodybackground.png);
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    padding: 0px 0px 700px 0px;
+}
+
+.headiv{
+    background-image: url(fundo.png);
+}
+
+.headiv h1 img{
+    width: 200px;
+}
+
+.headiv section img{
+    width: 350px;
+}
+
+.headiv section img:hover{
+    transition: .2s linear;
+    cursor: pointer;
+    width: 357px;
+}
