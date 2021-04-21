@@ -28,3 +28,48 @@
     cursor: pointer;
     width: 357px;
 }
+
+.banner-div{
+    margin: 30px 0px 30px 0px;
+}
+.banner-div article img{
+    width: 360px;
+}
+.banner-div h1{
+    font-family: helvetica;
+    padding: 0px 0px 20px 0px;
+}
+.cartao-div img{
+    width: 360px;
+    margin: 10px 10px 10px 30px;
+}
+.cartao-div h2{
+    font-size: 18px;
+    font-family: helvetica;
+    padding: 0px 0px 0px 20px;
+}
+.cartao-div img:hover{
+    cursor: pointer;
+    transition: .3s linear;
+    width: 365px;
+}
+.download{
+    margin: 20px 0px 30px 0px;
+}
+.download button img{
+    width: 20px;
+    margin: 0px 0px 0px 5px;
+    transform: translateY(5px);
+}
+.download button{
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(2, 26, 61, 0.979);
+    border-radius: 25px;
+    border: none;
+}
+.download button a{
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+    text-decoration: none;
+}
