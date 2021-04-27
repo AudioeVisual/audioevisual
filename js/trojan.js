@@ -27,7 +27,7 @@ function acesso(form){
         if (form.nome.value == "resenha na areia" && form.senha.value == "ctresenhanaareia" ) {
           location = "clientes/resenhanaareia/ctrna.html" }
 
-        if (form.nome.value == "herica lopes" && form.senha.value == "hericalopesdecoracao" ) {
+        if (form.nome.value == "hérica lopes" && form.senha.value == "hericalopesdecoracao" ) {
           location = "clientes/hericalopes/contato/index.html" }
 
         if (form.nome.value == "weslley silva" && form.senha.value == "bellaafrodite" ) {

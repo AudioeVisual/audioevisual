@@ -74,3 +74,16 @@
     font-size: 18px;
     text-decoration: none;
 }
+
+.flyer-div{
+    margin: 30px 0px 20px 0px;
+}
+
+.flyer-div img{
+    width: 350px;
+}
+
+.flyer-view img{
+    width: 350px;
+    margin: 10px 5px 10px 0px;
+}
