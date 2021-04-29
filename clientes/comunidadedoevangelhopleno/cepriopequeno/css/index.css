@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.header-div{
+    background-image: url(../background/fundohead.png);
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+    padding: 0px 0px 300px 0px;
+}
+
+.header-div img{
+    margin: 150px 0px 0px 0px;
+    width: 200px;
+}
+
+.header-div ul{
+    list-style: none;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.header-div .list-header li{
+    padding: 20px 50px 20px 50px;
+    
+}
+
+.header-div .list-header li:hover{
+    transition: linear 0.3s;
+    padding: 20px 50px 20px 50px;
+    background-color: rgb(255, 255,255, 0.3);
+}
+
+.header-div .list-header li a{
+    color: white;
+    font-family: helvetica;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.header-div .insta{
+    width: 200px;
+    margin: 10px 0px 0px 0px;
+}
+
+.header-div h1{
+    font-family: helvetica;
+    color: white;
+}
+
+.programation-div{
+    margin: 50px 0px 0px 0px;
+}
+
+.programation-div h1{
+    margin: 0px 0px 30px 20px;
+    font-family: helvetica;
+}
+
+.programation-div .icon{
+    width: 35px;
+    transform: translateY(10px);
+    margin: 10px 0px 0px 5px;
+}
+
+#slider{
+    width: 100%;
+    max-width: 500px;
+    height: 25vw;
+    max-height: 150px;
+}
+
+#slider img{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    object-fit: contain;
+    transition: opacity 800ms;
+   
+}
+#slider img.selected{
+    opacity: 1;
+}
+
+.item img{
+    width: 710px;
+}
+
+.hoje-div{
+    margin: 500px 0px 0px 0px;
+}
+.hoje-div h1{
+    text-transform: uppercase;
+    font-family: helvetica;
+}

@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/gallery.css">
+    <link rel="stylesheet" href="css/gallery.theme.css">
+    <link rel="stylesheet" href="css/calendar.css">
+    <script src="js/calendarselect.js"></script>
+    <title>Comunidade do Evangelho Pleno - Site</title>
+</head>
+<div class="all-page">
+    <body>
+        <div class="header-div">
+            <ul class="list-header">
+                <li><a href="#programacao">Programação</a></li>
+                <li><a href="#diadehoje">Hoje?</a></li>
+                <li><a href="">Projetos</a></li>
+                <li><a href="">Aniversariantes</a></li>
+                <li><a href="">Escala</a></li>
+            </ul>
+            <center><img src="logos/logocolorida.png" alt="logo"></center>
+            <center><a href="https://www.instagram.com/cep_riopequeno/"><img src="logos/Instagram igreja logo para introdução.png" alt="" class="insta"></a></center>
+            <center><h1>CONQUISTANDO OS CONTINENTES JÁ!</h1></center>
+        </div>
+        <div class="programation-div" id="programacao">
+            <h1>Programação<img src="icons/Calendar.png" alt="" class="icon"></h1>
+            <div class="img-program">
+              <div id="slider">
+                <div class="conteiner"></div>
+                <img class="selected" src="imagens/cultoebd.png" alt="image1">
+                <img src="imagens/cultodomingo.png" alt="image2">
+                <img src="imagens/cultodafamilia.png" alt="image3">
+                <img src="imagens/cultoconsagracao.png" alt="image4">
+                <img src="imagens/cultosantaceia.png" alt="image5">
+                <script src="js/rotative.js"></script>
+              </div>
+            </div>
+
+        </div>
+        <div class="hoje-div" id="diadehoje">
+            <article>
+                <center><h1 id="data"></h1></center>
+                <script src="js/data.js"></script>
+                <center><img src="" alt="" id="imgdata"></center>
+            </article>
+        </div>
+        <div class="calendar">
+            <article>
+            <ul class="ul-geral"> 
+                <li class="li-geral">
+                    <ul>
+                         <!--Dias da Semana-->
+                         <li>
+                            <div><center><p>S</p></center></div>
+                        </li>
+                        <li>
+                            <div><center><p>T</p></center></div>
+                        </li>
+                        <li>
+                            <div><center><p>Q</p></center></div>
+                        </li>
+                        <li>
+                            <div><center><p>Q</p></center></div>
+                        </li>
+                        <li>
+                            <div><center><p>S</p></center></div>
+                        </li>
+                        <li>
+                            <div><center><p>S</p></center></div>
+                        </li>
+                        <li>
+                            <div><center><p>D</p></center></div>
+                        </li>
+                        <!--Dias do Mês-->
+                    </ul><br>
+                    <ul>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>1</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>2</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventQuarta()" id="temevento"><center><p>3</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>4</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>5</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventSabado()" id="temevento"><center><p>6</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventDomingo()" id="temevento"><center><p>7</p></center></div>
+                        </li>
+                    </ul><br>
+                    <ul>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>8</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>9</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventQuarta()" id="temevento"><center><p>10</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>11</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>12</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventSabado()" id="temevento"><center><p>13</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventDomingo()" id="temevento"><center><p>14</p></center></div>
+                        </li>
+                    </ul><br>
+                    <ul>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>15</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>16</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventQuarta()" id="temevento"><center><p>17</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>18</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>19</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventSabado()" id="temevento"><center><p>20</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventDomingo()" id="temevento"><center><p>21</p></center></div>
+                        </li>
+                    </ul><br>
+                    <ul>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>22</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>23</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventQuarta()" id="temevento"><center><p>24</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>25</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>26</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventSabado()" id="temevento"><center><p>27</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventDomingo()" id="temevento"><center><p>28</p></center></div>
+                        </li>
+                    </ul><br>
+                    <ul>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>29</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="A()"><center><p>30</p></center></div>
+                        </li>
+                        <li>
+                            <div class="day" onclick="eventQuarta()" id="temevento"><center><p>31</p></center></div>
+                        </li>
+                    </ul>
+                </li>
+                <li class="li-geral">
+                    <div class="event"><img src="imagens/Culto de Domingo programação.png" alt="" id="evento"></div>
+                </li>
+            </ul>   
+           </article>
+        </div>
+    </body>
+</div>
+</html>

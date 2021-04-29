@@ -32,6 +32,9 @@ function acesso(form){
 
         if (form.nome.value == "weslley silva" && form.senha.value == "bellaafrodite" ) {
           location = "clientes/bellaafrodite/index.html" }
+
+        if (form.nome.value == "comunidade do evangelho pleno" && form.senha.value == "cepriopequeno" ) {
+          location = "clientes/comunidadedoevangelhopleno/index.html" }
             
           else {
             form.nome.value=""
