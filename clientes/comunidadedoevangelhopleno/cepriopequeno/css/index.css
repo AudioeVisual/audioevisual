@@ -91,9 +91,10 @@
 }
 
 .hoje-div{
-    margin: 500px 0px 0px 0px;
+    margin: 550px 0px 0px 0px;
 }
 .hoje-div h1{
     text-transform: uppercase;
     font-family: helvetica;
+    font-size: 22px;
 }

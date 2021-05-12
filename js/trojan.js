@@ -34,7 +34,7 @@ function acesso(form){
           location = "clientes/bellaafrodite/index.html" }
 
         if (form.nome.value == "comunidade do evangelho pleno" && form.senha.value == "cepriopequeno" ) {
-          location = "clientes/comunidadedoevangelhopleno/index.html" }
+          location = "clientes/comunidadedoevangelhopleno/cepriopequeno/index.html" }
             
           else {
             form.nome.value=""
