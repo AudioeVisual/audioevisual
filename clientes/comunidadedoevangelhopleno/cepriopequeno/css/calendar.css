@@ -6,11 +6,11 @@
     margin: 0px 0px 0px 50px;
 }
 .ul-geral img{
-    width: 350px;
+    width: 300px;
 }
 .calendar .day{
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-style: outset;
     border-color: black;
     border-radius: 100%;
@@ -18,14 +18,15 @@
 .calendar .day:hover{
     cursor: pointer;
     transition: linear .4s;
-    width: 30px;
-    height: 30px;
+    width: 20px;
+    height: 20px;
     border-style: outset;
     border-color: black;
     border-radius: 100%;
     background-color: black;
 }
 .calendar .day p{
+    font-size: 12px;
     padding: 5px 0px 0px 0px;
     color: rgb(0, 0, 0);
     font-family: helvetica;

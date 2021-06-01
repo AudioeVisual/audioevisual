@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.geral{
+    background-image: url(bodybackground.png);
+    background-attachment: fixed;
+    background-position: center;
+    position: relative;
+    padding: 0px 0px 700px 0px;
+}
+.headiv{
+    background-image: url(headbackground.jpg);
+}
+
+.headiv{
+    background-image: url(background-top.png);
+    background-position: relative;
+    background-attachment: fixed;
+    position: center;
+}
+
+.headiv ul .avlogo img{
+    margin: 10px 0px 0px 0px;
+    width: 200px;
+}
+.rnalogo img{
+    margin: 10px 0px 0px 0px;
+    width: 180px;
+    transform: translateY(-40px);
+}
+.headiv ul{
+    display: inline-flex;
+    list-style: none;
+}
+.instapost-div{
+    padding: 0px 25px 150px 25px;
+    margin: 50px 100px 50px 100px;
+    border-radius: 25px;
+    border-style: outset;
+    border-color: black;
+}
+.instapost-div:hover{
+    transition: linear .5s;
+    background-color: rgba(8, 0, 117, 0.63);
+}
+.instapost-div img{
+    width: 100px;
+    margin: 100px 0px 0px 0px;
+}
+.instapost-div a{
+    text-decoration: none;
+}
+.instapost-div p{
+    margin: 15px 0px 0px 0px;
+    text-transform: uppercase;
+    font-family: helvetica;
+    font-size: 20px;
+    color: black;
+}
+.instapost-div a p:hover{
+    transition: linear .2s;
+   color: white;
+}
+.posts-div{
+    overflow-y: scroll;
+}
+.posts-div ul{
+    width: auto;
+    display: inline-flex;
+    list-style: none;
+}
+.posts-div ul img{
+    width: 400px;
+}
+.posts-div ul img:hover{
+    transition: linear .5s;
+    width: 405px;
+}
+.download{
+    margin: 20px 0px 30px 0px;
+}
+.download button img{
+    width: 20px;
+    margin: 0px 0px 0px 5px;
+    transform: translateY(5px);
+}
+.download button{
+    padding: 10px 30px 10px 30px;
+    background-color: rgba(2, 26, 61, 0.979);
+    border-radius: 25px;
+    border: none;
+}
+.download button a{
+    color: white;
+    font-family: helvetica;
+    font-size: 18px;
+    text-decoration: none;
+}

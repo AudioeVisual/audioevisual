@@ -25,7 +25,7 @@ function acesso(form){
           location = "socio/hernandesfernandes/projetoshernandes.html" }
         
         if (form.nome.value == "resenha na areia" && form.senha.value == "ctresenhanaareia" ) {
-          location = "clientes/resenhanaareia/ctrna.html" }
+          location = "socio/resenhanaareia/ctrna.html" }
 
         if (form.nome.value == "hérica lopes" && form.senha.value == "hericalopesdecoracao" ) {
           location = "clientes/hericalopes/contato/index.html" }
