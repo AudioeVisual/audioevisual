@@ -23,45 +23,91 @@
 
 .headiv ul .avlogo img{
     margin: 10px 0px 0px 0px;
-    width: 200px;
+    width: 100px;
 }
 .rnalogo img{
     margin: 10px 0px 0px 0px;
-    width: 180px;
-    transform: translateY(-40px);
+    width: 100px;
+    padding: 20px 0px 20px 0px;
+    transform: translateY(-20px);
 }
 .headiv ul{
     display: inline-flex;
     list-style: none;
+    padding: 20px 0px 20px 0px;
 }
-.instapost-div{
-    padding: 0px 25px 150px 25px;
-    margin: 50px 100px 50px 100px;
+.id-div{
+    margin: 40px 20px 40px 20px;
+    background-color: white;
     border-radius: 25px;
-    border-style: outset;
-    border-color: black;
+    box-shadow: 5px -9px 5px rgba(0, 0, 0, 0.247);
 }
-.instapost-div:hover{
-    transition: linear .5s;
-    background-color: rgba(8, 0, 117, 0.63);
+.perfil-ul .foto img{
+    width: 110px;
+    border-radius: 100%;
+    margin: 20px 0px 0px 20px;
+    padding: 0px 10px 0px 0px;
 }
-.instapost-div img{
-    width: 100px;
-    margin: 100px 0px 0px 0px;
+.perfil-ul .name h2{
+    font-family: roboto;
+    color: rgb(55, 1, 59);
+    transform: translateY(30px);
+    margin: 20px 20px 10px 35px;
 }
-.instapost-div a{
-    text-decoration: none;
+.perfil-ul .service{
+    margin: 10px 0px 0px 50px;
 }
-.instapost-div p{
-    margin: 15px 0px 0px 0px;
-    text-transform: uppercase;
-    font-family: helvetica;
-    font-size: 20px;
+.perfil-ul .service img{
+    width: 15px;
+    margin: 0px 3px 0px 0px;
+    transform: translateY(2px);
+}
+.perfil-ul .service p{
+    font-family: roboto;
+    margin: 0px 10px 0px 0px;
+}
+.id-div ul{
+    display: inline-flex;
+    list-style: none;
+}
+.designer{
+    transform: translateY(20px);
+}
+
+.id-div .designer img{
+    width: 30px;
+}
+.id-div .designer img:hover{
+    transition: all .5s ease-in-out;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+.designer li p{
+    font-family: roboto;
+    margin: 0px 0px 0px 8px;
+    transform: translateY(5px);
+}
+.payment-ul img{
+    width: 35px;
+    margin: 20px 5px 0px 0px;
+}
+.payment-ul .rotate:hover{
+    transition: all .5s ease-in-out;
+    transform: rotate(360deg);
+}
+.payment-ul h3{
+    font-family: roboto;
+    color: rgb(55, 1, 59);
+    margin: 20px 0px 0px 0px;
+    transform: translateY(5px);
+
+}
+.payment-ul .number{
     color: black;
+    margin: 20px 0px 0px 5px;
 }
-.instapost-div a p:hover{
-    transition: linear .2s;
-   color: white;
+.ul-pix{
+    margin: 0px 0px 0px 80px;
 }
 .posts-div{
     overflow-y: scroll;
