@@ -22,12 +22,12 @@
 }
 
 .headiv ul .avlogo img{
-    margin: 10px 0px 0px 0px;
-    width: 100px;
+    margin: 20px 0px 0px 0px;
+    width: 120px;
 }
 .rnalogo img{
-    margin: 10px 0px 0px 0px;
-    width: 100px;
+    margin: 20px 0px 0px 0px;
+    width: 120px;
     padding: 20px 0px 20px 0px;
     transform: translateY(-20px);
 }
@@ -51,8 +51,8 @@
 .perfil-ul .name h2{
     font-family: roboto;
     color: rgb(55, 1, 59);
-    transform: translateY(30px);
-    margin: 20px 20px 10px 35px;
+    
+    margin: 5px 20px 10px 35px;
 }
 .perfil-ul .service{
     margin: 10px 0px 0px 50px;
@@ -66,12 +66,16 @@
     font-family: roboto;
     margin: 0px 10px 0px 0px;
 }
-.id-div ul{
+.service{
     display: inline-flex;
+}
+.id-div ul{
+    
     list-style: none;
 }
 .designer{
-    transform: translateY(20px);
+    display: inline-flex;
+    margin: 10px 0px 0px 0px;
 }
 
 .id-div .designer img{
@@ -86,6 +90,9 @@
     font-family: roboto;
     margin: 0px 0px 0px 8px;
     transform: translateY(5px);
+}
+.payment-ul{
+    display: inline-flex;
 }
 .payment-ul img{
     width: 35px;
