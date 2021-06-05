@@ -116,6 +116,26 @@
 .ul-pix{
     margin: 0px 0px 0px 80px;
 }
+.infoperf{
+    margin: 30px 0px 20px 30px;
+}
+.infoperf li h1{
+    font-family: roboto;
+    color: rgb(55, 1, 59);
+    font-size: 20px;
+    margin: 0px 0px 10px 0px;
+}
+.infoperf img{
+    width: 20px;
+    margin: 10px 5px 0px 0px;
+    transform: translateY(-11px);
+}
+.infoperf .checkperf{
+    display: inline-flex;
+}
+.checkperf p{
+    font-family: roboto;
+}
 .posts-div{
     overflow-y: scroll;
 }
