@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Rifa - Ação Solidário</title>
+	<link rel="stylesheet" href="css/config.css">
+	<meta charset="utf-8">
+</head>
+<body onload="mostraPatio()">
+	<header class="headiv">
+	</header>
+	<section class="secdiv1">
+		<div class="container">
+
+			<div class="header clearfix">
+				<center><h2>Rifa Voluntária</h2></center>
+				<center><h3>Sorteio ocorrerá 28/08/2021</h3></center>
+			</div>
+		</section>
+		<article class="artsistem">
+			<center>
+				<div class="jumbotron">
+					<form id="formulario">
+					<div id="aviso"></div>
+						<div class="form-group">
+							<label>Nome</label><br>
+							<input type="text" class="form-control" name="" id="modeloVeiculo" placeholder="Nome do participante">
+						</div><br><br>
+						<div class="form-group">
+							<label>Número</label><br>
+							<input type="text" class="form-control" name="" id="placaVeiculo" placeholder="Número a ser sorteado">
+						</div><br>
+						<button type="submit" class="btn btn-primary">Adicionar</button>
+					</form>
+				</div><br><hr>
+
+				<div class="row marketing">
+					<div class="col-lg-12">
+					 <table class="table table-hover" >
+					    <thead>
+					      <tr>
+					        <th>Nome</th>
+					        <th>Número</th>
+					        <th>Horário</th>
+					        <th>Finalizar</th>
+					      </tr>
+					    </thead>
+					    <tbody id="resultados">
+					    </tbody>
+					 </table>
+					</div>
+				</div>
+			</div>
+		</center>
+		 	<script src="https://code.jquery.com/jquery-3.1.1.js" integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA=" crossorigin="anonymous"></script>
+			<script src="js/bootstrap.min.js"></script>
+			<script src="js/main.js"></script>
+		</article>
+	</body>
+</html>

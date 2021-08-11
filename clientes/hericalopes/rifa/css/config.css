@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.headiv{
+  background-image: url(background.png);
+  background-position: center;
+  background-attachment: fixed;
+  padding: 8px 0px 5px 8px;
+}
+header img{
+  width: 350px;
+}
+.secdiv1 h2{
+  font-family: helvetica;
+  font-size: 25px;
+  padding: 10px 0px 80px 0px
+}
+.col-lg-12{
+  padding: 50px 20px 0px 20px
+}
+.col-lg-12 th{
+  padding: 0px 60px 0px 0px;
+  font-family: helvetica;
+  font-size: 18px;
+}
+button{
+  padding: 10px 50px 10px 50px;
+  border-radius: 6px;
+  border-color: black;
+  color: black;
+  font-family: helvetica;
+  background: white;
+}
+button:hover{
+  cursor: pointer;
+  background: #D1D3D1;
+  color: white;
+}
+#modeloVeiculo{
+  padding: 0px 80px 0px 80px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: black;
+}
+#placaVeiculo{
+  padding: 0px 80px 0px 80px;
+  border-radius: 6px;
+  border-width: 1px;
+  border-color: black;
+}
